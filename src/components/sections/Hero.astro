@@ -1,0 +1,179 @@
+---
+import Section from "@/components/Section.astro";
+import GitHub from "@/icons/GitHub.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import Mail from "@/icons/Mail.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+import type { SocialIcon } from "@/types";
+import { basics } from "@cv";
+
+const { name, description, image, location, profiles, email } = basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS: SocialIcon = {
+  GitHub,
+  LinkedIn,
+};
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const githubInfo = profiles.find(({ network }) => network === "GitHub");
+---
+
+<Section>
+  <div class="container">
+    <div class="info">
+      <h1>{name}</h1>
+      <h3>{description}</h3>
+      <span>
+        <WorldMap />
+        {city}, {region}
+      </span>
+      <footer class="print">
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {email}
+            </a>
+          )
+        }
+        {" - "}
+        {
+          linkedInfo && (
+            <a
+              href={linkedInfo.url}
+              title={`Visitar el perfil de ${name} en ${linkedInfo.network}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {linkedInfo.username}
+            </a>
+          )
+        }
+        {" - "}
+        {
+          githubInfo && (
+            <a
+              href={githubInfo.url}
+              title={`Enviar un correo electrónico a ${name} al correo ${githubInfo.network}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {githubInfo.username}
+            </a>
+          )
+        }
+      </footer>
+      <footer class="no-print">
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Mail />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network];
+
+            return (
+              <a
+                href={url}
+                title={`Visitar el perfil de ${name} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon />
+              </a>
+            );
+          })
+        }
+      </footer>
+    </div>
+    <figure>
+      <img src={image} alt={name} />
+    </figure>
+  </div>
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 160px;
+    border-radius: 0.25rem;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  footer {
+    color: #555;
+    font-size: 0.65rem;
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  .no-print a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    padding: 4px;
+    height: 2.25rem;
+    width: 2.25rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  }
+
+  footer a:hover {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    color: #171717;
+  }
+
+  @media (width <= 768px) {
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
+  }
+</style>
