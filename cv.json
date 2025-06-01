@@ -5,7 +5,7 @@
     "image": "/me.png",
     "email": "frankbotelle@gmail.com",
     "url": "",
-    "summary": "Ingeniero de Software y Desarrollador FullStack enfocado en Frontend con ms 6 años de experiencia dedicados a crear productos de alta calidad. Centrado en escribir limpio y código escalable buscando nuevos retos profesionales para continuar desarrollando mi carrera y mis habilidades.",
+    "summary": "Soy un Ingeniero de Software y Desarrollador Full Stack enfocado en Frontend con más de 5 años de experiencia en el desarrollo de sitios web y aplicaciones únicas. Dedicado a crear productos de calidad con un enfoque minimalista y sencillo escribiendo código limpio y escalable. En busca de nuevos retos profesionales para seguir desarrollando mi carrera y habilidades.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -87,10 +87,10 @@
   ],
   "certificates": [
     {
-      "name": "Inglés B1",
+      "name": "Inglés B2 UPPER INTERMEDIATE",
       "date": "2025",
-      "issuer": "Centro de Estudios 'Fray Bartolome de las Casas'",
-      "url": "https://bartolo.org/",
+      "issuer": "EF SET",
+      "url": "https://cert.efset.org/es/2HGDtW",
       "download": ""
     },
     {
@@ -220,6 +220,11 @@
       "keywords": ["Desarrollo Web", "Backend", "Python", "Servidor"]
     },
     {
+      "name": "FastAPI",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "Python", "Servidor"]
+    },
+    {
       "name": "Supabase",
       "level": "Competent",
       "keywords": ["Backend serverless", "Database", "API"]
@@ -228,6 +233,16 @@
       "name": "Turso",
       "level": "Competent",
       "keywords": ["Backend serverless", "Database", "API"]
+    },
+    {
+      "name": "Convex",
+      "level": "Competent",
+      "keywords": ["Backend", "Database", "API"]
+    },
+    {
+      "name": "Clerk",
+      "level": "Competent",
+      "keywords": ["Servicios", "Autenticación"]
     },
     {
       "name": "Git",
@@ -273,7 +288,13 @@
       "name": "Blog",
       "isActive": true,
       "description": "Una plataforma de blogs minimalista.",
-      "highlights": ["Next.js", "Supabase", "Tailwind CSS", "TypeScript"],
+      "highlights": [
+        "Next.js",
+        "Supabase",
+        "Tailwind CSS",
+        "TypeScript",
+        "Clerk"
+      ],
       "url": "https://blog.vercel.app/"
     },
     {
@@ -290,10 +311,16 @@
       "url": "https://reunio.vercel.app/"
     },
     {
-      "name": "Abla",
+      "name": "Contexto",
       "isActive": true,
-      "description": "Una apk para comunicarse de forma segura y privada.",
-      "highlights": ["Expo", "Supabase", "TypeScript", "GetStream"],
+      "description": "Un editor de documentos online y colaborativo.",
+      "highlights": [
+        "Next.js",
+        "Convex",
+        "TypeScript",
+        "Clerk",
+        "Tailwind CSS"
+      ],
       "url": "https://reunio.vercel.app/"
     }
   ]
