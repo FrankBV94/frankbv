@@ -14,13 +14,26 @@ import { certificates } from "@cv";
               <header>
                 <div>
                   <h3>
-                    <a
-                      href={`/${download}`}
-                      title={`Ver certificado de  ${name}`}
-                      download={download}
-                    >
-                      {name}
-                    </a>
+                    {download.length > 0 ? (
+                      <a
+                        href={`/${download}`}
+                        title={`Ver certificado de  ${name}`}
+                        download={download}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {name}
+                      </a>
+                    ) : (
+                      <a
+                        href={`${url}`}
+                        title={`Ver certificado de  ${name}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {name}
+                      </a>
+                    )}
                   </h3>
                 </div>
 
