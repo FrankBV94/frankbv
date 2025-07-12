@@ -164,6 +164,11 @@
       "keywords": ["Desarrollo Web", "Backend", "API REST"]
     },
     {
+      "name": "MongoDB",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "NoSQL"]
+    },
+    {
       "name": "Tailwind CSS",
       "level": "Competent",
       "keywords": [
@@ -225,6 +230,21 @@
       "keywords": ["Desarrollo Web", "Backend", "Python", "Servidor"]
     },
     {
+      "name": "PostgreSQL",
+      "level": "Competent",
+      "keywords": ["Backend", "Database", "API"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Competent",
+      "keywords": ["Backend", "Database", "API"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Competent",
+      "keywords": ["Backend", "Database", "API"]
+    },
+    {
       "name": "Supabase",
       "level": "Competent",
       "keywords": ["Backend serverless", "Database", "API"]
@@ -280,19 +300,20 @@
     {
       "name": "JSBenchmark",
       "isActive": true,
-      "description": "Una plataforma de comparación de rendimiento de JavaScript.",
+      "description": "Herramienta web para comparar rendimiento de JavaScript.",
       "highlights": ["Astro", "daisyUI", "TypeScript"],
       "url": "https://js-benchmark.vercel.app/"
     },
     {
       "name": "Blog",
       "isActive": true,
-      "description": "Una plataforma de blogs minimalista.",
+      "description": "Plataforma de blogs minimalista.",
       "highlights": [
         "Next.js",
         "Supabase",
-        "Tailwind CSS",
         "TypeScript",
+        "MongoDB",
+        "Express.js",
         "Clerk"
       ],
       "url": "https://blog.vercel.app/"
@@ -300,7 +321,7 @@
     {
       "name": "Reunio",
       "isActive": true,
-      "description": "Una plataforma integral y minimalista de gestión de consultas en línea.",
+      "description": "Plataforma integral y minimalista de gestión de consultas en línea.",
       "highlights": [
         "Next.js",
         "Tailwind CSS",
@@ -313,7 +334,7 @@
     {
       "name": "Contexto",
       "isActive": true,
-      "description": "Un editor de documentos online y colaborativo.",
+      "description": "Editor de documentos online y colaborativo impulsado con IA.",
       "highlights": [
         "Next.js",
         "Convex",
@@ -321,7 +342,7 @@
         "Clerk",
         "Tailwind CSS"
       ],
-      "url": "https://reunio.vercel.app/"
+      "url": "https://contexto-zeta.vercel.app/"
     }
   ]
 }
