@@ -5,7 +5,7 @@
     "image": "/me.png",
     "email": "frankbotelle@gmail.com",
     "url": "",
-    "summary": "Soy un Ingeniero de Software y Desarrollador Full Stack enfocado en Frontend con más de 5 años de experiencia en el desarrollo de sitios web y aplicaciones únicas. Dedicado a crear productos de calidad con un enfoque minimalista y sencillo escribiendo código limpio y escalable. En busca de nuevos retos profesionales para seguir desarrollando mi carrera y habilidades.",
+    "summary": "Soy Ingeniero de Software y Desarrollador Full Stack con más de 5 años de experiencia, enfocado en crear aplicaciones web limpias, escalables y centradas en la simplicidad. Me apasiona el desarrollo web y las criptomonedas, y tengo un fuerte interés en el impacto social y económico de la tecnología. Busco nuevos retos donde pueda combinar mis habilidades técnicas con una visión estratégica para construir soluciones innovadoras y útiles.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -189,11 +189,6 @@
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
-      "name": "React Native",
-      "level": "Competent",
-      "keywords": ["Desarrollo Mobile", "Frontend", "JavaScript Library", "UI"]
-    },
-    {
       "name": "Expo",
       "level": "Competent",
       "keywords": ["Desarrollo Mobile", "Frontend", "JavaScript Library", "UI"]
@@ -230,21 +225,6 @@
       "keywords": ["Desarrollo Web", "Backend", "Python", "Servidor"]
     },
     {
-      "name": "PostgreSQL",
-      "level": "Competent",
-      "keywords": ["Backend", "Database", "API"]
-    },
-    {
-      "name": "MySQL",
-      "level": "Competent",
-      "keywords": ["Backend", "Database", "API"]
-    },
-    {
-      "name": "MongoDB",
-      "level": "Competent",
-      "keywords": ["Backend", "Database", "API"]
-    },
-    {
       "name": "Supabase",
       "level": "Competent",
       "keywords": ["Backend serverless", "Database", "API"]
@@ -268,6 +248,11 @@
       "name": "Git",
       "level": "Competent",
       "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "Docker",
+      "level": "Competent",
+      "keywords": ["Deploy", "Colaboración", "Código Fuente"]
     }
   ],
   "languages": [
@@ -301,12 +286,12 @@
       "name": "JSBenchmark",
       "isActive": true,
       "description": "Herramienta web para comparar rendimiento de JavaScript.",
-      "highlights": ["Astro", "daisyUI", "TypeScript"],
+      "highlights": ["Astro", "Tailwind CSS", "TypeScript"],
       "url": "https://js-benchmark.vercel.app/"
     },
     {
       "name": "Blog",
-      "isActive": true,
+      "isActive": false,
       "description": "Plataforma de blogs minimalista.",
       "highlights": [
         "Next.js",
@@ -319,9 +304,9 @@
       "url": "https://blog.vercel.app/"
     },
     {
-      "name": "Reunio",
-      "isActive": true,
-      "description": "Plataforma integral y minimalista de gestión de consultas en línea.",
+      "name": "Linia",
+      "isActive": false,
+      "description": "Una plataforma para conectar con tus amigos.",
       "highlights": [
         "Next.js",
         "Tailwind CSS",
