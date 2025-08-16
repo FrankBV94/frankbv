@@ -6,6 +6,7 @@ import Mail from "@/icons/Mail.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
 import { basics } from "@cv";
+import { Image } from "astro:assets";
 
 const { name, description, image, location, profiles, email } = basics;
 const { city, region } = location;
@@ -100,7 +101,7 @@ const githubInfo = profiles.find(({ network }) => network === "GitHub");
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name} />
+      <Image src={image} alt={name} width={160} height={160} priority />
     </figure>
   </div>
 </Section>
