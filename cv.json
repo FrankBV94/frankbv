@@ -304,8 +304,8 @@
       "url": "https://blog.vercel.app/"
     },
     {
-      "name": "Linia",
-      "isActive": false,
+      "name": "Comuno",
+      "isActive": true,
       "description": "Una plataforma para conectar con tus amigos.",
       "highlights": [
         "Next.js",
@@ -314,7 +314,7 @@
         "GetStream",
         "Clerk"
       ],
-      "url": "https://linia-ecru.vercel.app/"
+      "url": "https://comuno-five.vercel.app/"
     },
     {
       "name": "Contexto",
