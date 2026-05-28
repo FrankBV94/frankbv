@@ -1,21 +1,14 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [
-    ".astro/types.d.ts",
-    "**/*"
-  ],
-  "exclude": [
-    "dist"
-  ],
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src/*"
-      ],
-      "@cv": [
-        "./cv.json"
-      ]
+      "@/*": ["src/*"],
+      "@cvEs": ["./cv-es.json"],
+      "@cvEn": ["./cv-en.json"],
+      "@store/*": ["src/store/*"]
     }
   }
 }

@@ -5,7 +5,10 @@
     "image": "/frankbv/me.png",
     "email": "frankbotelle@gmail.com",
     "url": "",
-    "summary": "Soy Ingeniero de Software y Desarrollador Full Stack con más de 6 años de experiencia, enfocado en crear aplicaciones web limpias, escalables y centradas en la simplicidad. Me apasiona el desarrollo web y las criptomonedas, y tengo un fuerte interés en el impacto social y económico de la tecnología. Busco nuevos retos donde pueda combinar mis habilidades técnicas con una visión estratégica para construir soluciones innovadoras y útiles.",
+    "summary": {
+      "first": "Soy Ingeniero de Software y Desarrollador Full Stack con más de 8 años de experiencia, especializado en el desarrollo de aplicaciones web modernas con fuerte enfoque en Frontend. Actualmente lidero y desarrollo sistemas en entornos empresariales, abarcando el ciclo completo desde la arquitectura hasta el despliegue y mantenimiento. A nivel personal he construido proyectos end-to-end donde exploro e integro tecnologías con inteligencia artificial con el objetivo de crear soluciones escalables y modernas.",
+      "second": "Me especializo en construir productos completos desde cero, combinando ingeniería sólida con enfoque en producto y experiencia de usuario. Tengo experiencia trabajando en entornos empresariales, especialmente en sistemas internos (intranet), donde la estabilidad, seguridad y mantenibilidad son críticas. Busco nuevas oportunidades donde pueda aportar mis habilidades y conocimientos participando en la construcción de productos reales con impacto."
+    },
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,8 +36,8 @@
       "url": "https://www.etecsa.cu/",
       "startDate": "2023-09",
       "endDate": null,
-      "summary": "Administrador y desarrollador principal del sistema de gestión de capacitación de la empresa, brindando soporte técnico y creando nuevas funcionalidades para su constante avance.",
-      "highlights": ["PHP", "MySQL", "TypeScript", "HTML", "CSS", "Bootstrap"]
+      "summary": "Actualmente lidero y desarrollo sistemas internos incluyendo plataformas de gestión de capacitación, gestión del conocimiento y sistemas de asistencia, donde asumo el ciclo completo de desarrollo: desde la arquitectura hasta el despliegue y mantenimiento.",
+      "highlights": ["Laravel", "MySQL", "Next.js", "Django"]
     },
     {
       "name": "CITI",
@@ -43,15 +46,7 @@
       "startDate": "2018-09",
       "endDate": "2023-08",
       "summary": "Actualicé el sistema de análisis de señales de radio incorporando nuevas técnicas de demodulación y di mantenimiento al mismo. Diseñé y construí un sistema completo de front-end y back-end para gestionar inventarios, mejorando su eficiencia.",
-      "highlights": [
-        "C++",
-        "HTML",
-        "CSS",
-        "TypeScript",
-        "ReactJS",
-        "NodeJS",
-        "PostgreSQL"
-      ]
+      "highlights": ["C++", "TypeScript", "ReactJS", "NodeJS", "PostgreSQL"]
     }
   ],
   "volunteer": [
@@ -240,6 +235,11 @@
       "keywords": ["Backend", "Database", "API"]
     },
     {
+      "name": "Prisma",
+      "level": "Competent",
+      "keywords": ["Backend serverless", "Database", "API"]
+    },
+    {
       "name": "Clerk",
       "level": "Competent",
       "keywords": ["Servicios", "Autenticación"]
@@ -290,43 +290,17 @@
       "url": "https://js-benchmark.vercel.app/"
     },
     {
-      "name": "Blog",
-      "isActive": false,
-      "description": "Plataforma de blogs minimalista.",
-      "highlights": [
-        "Next.js",
-        "Supabase",
-        "TypeScript",
-        "MongoDB",
-        "Express.js",
-        "Clerk"
-      ],
-      "url": "https://blog.vercel.app/"
-    },
-    {
       "name": "Comuno",
       "isActive": true,
       "description": "Una plataforma para conectar con tus amigos.",
-      "highlights": [
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript",
-        "GetStream",
-        "Clerk"
-      ],
+      "highlights": ["Next.js", "TypeScript", "GetStream", "Clerk"],
       "url": "https://comuno-five.vercel.app/"
     },
     {
       "name": "Contexto",
       "isActive": true,
       "description": "Editor de documentos online y colaborativo impulsado con IA.",
-      "highlights": [
-        "Next.js",
-        "Convex",
-        "TypeScript",
-        "Clerk",
-        "Tailwind CSS"
-      ],
+      "highlights": ["Next.js", "Convex", "TypeScript", "Clerk"],
       "url": "https://contexto-zeta.vercel.app/"
     }
   ]

@@ -1,6 +1,13 @@
 ---
 import Section from "../Section.astro";
-import { skills } from "@cv";
+
+const lang = Astro.currentLocale;
+const translation =
+  lang === "en"
+    ? (await import("@cvEn")).default
+    : (await import("@cvEs")).default;
+
+const { skills } = translation;
 ---
 
 <Section title="Habilidades">

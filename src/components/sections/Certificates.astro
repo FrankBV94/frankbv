@@ -1,7 +1,13 @@
 ---
 import Section from "../Section.astro";
 
-import { certificates } from "@cv";
+const lang = Astro.currentLocale;
+const translation =
+  lang === "en"
+    ? (await import("@cvEn")).default
+    : (await import("@cvEs")).default;
+
+const { certificates } = translation;
 ---
 
 <Section title="Certificados">

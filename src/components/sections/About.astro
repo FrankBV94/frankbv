@@ -1,12 +1,25 @@
 ---
 import Section from "../Section.astro";
+const lang = Astro.currentLocale;
+const translation =
+  lang === "en"
+    ? (await import("@cvEn")).default
+    : (await import("@cvEs")).default;
 
-import { basics } from "@cv";
-const { summary } = basics;
+const { summary } = translation.basics;
 ---
 
 <Section title="Sobre mi">
   <p>
-    {summary}
+    {summary.first}
+  </p>
+  <p>
+    {summary.second}
   </p>
 </Section>
+
+<style>
+  p:first-of-type {
+    margin-bottom: 1rem;
+  }
+</style>

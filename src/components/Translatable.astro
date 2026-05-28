@@ -1,0 +1,22 @@
+---
+const { k } = Astro.props;
+---
+
+<span data-key={k}></span>
+
+<script type="module">
+  import { messages } from "../stores/i18n";
+
+  const el = document.currentScript.previousElementSibling;
+
+  const render = (dict) => {
+    const key = el.getAttribute("data-key");
+    el.textContent = dict[key] ?? key;
+  };
+
+  // render inicial
+  render(messages.get());
+
+  // suscripción reactiva
+  messages.subscribe(render);
+</script>

@@ -5,9 +5,15 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import Mail from "@/icons/Mail.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
-import { basics } from "@cv";
 
-const { name, description, image, location, profiles, email } = basics;
+const lang = Astro.currentLocale;
+const translation =
+  lang === "en"
+    ? (await import("@cvEn")).default
+    : (await import("@cvEs")).default;
+
+const { name, description, image, location, profiles, email } =
+  translation.basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: SocialIcon = {

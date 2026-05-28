@@ -1,0 +1,327 @@
+{
+  "basics": {
+    "name": "Frank Botelle Valdés",
+    "description": "Software Engineer and Full Stack Developer.",
+    "image": "/frankbv/me.png",
+    "email": "frankbotelle@gmail.com",
+    "url": "",
+    "summary": {
+      "first": "Soy Ingeniero de Software y Full Stack Developer con más de 8 años de experiencia, especializado en el desarrollo de aplicaciones web modernas con fuerte enfoque en Frontend, rendimiento y experiencia de usuario. Lidero y desarrollo sistemas internos en entornos empresariales, abarcando el ciclo completo desde la arquitectura hasta el despliegue y mantenimiento, con énfasis en estabilidad, seguridad y mantenibilidad.",
+      "second": "He construido proyectos end-to-end como JSBenchmark, Comuno y Contexto, integrando tecnologías como Next.js, Astro, Django, Convex, Clerk, Liveblocks e inteligencia artificial. Busco oportunidades internacionales como Full Stack Engineer con orientación a Frontend, para participar en la construcción de productos reales con impacto."
+    },
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "La Habana",
+      "countryCode": "CU",
+      "region": "Cuba"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Frank Botelle Valdés",
+        "url": "https://www.linkedin.com/in/frank-botelle-valdés/"
+      },
+      {
+        "network": "GitHub",
+        "username": "FrankBV94",
+        "url": "https://github.com/FrankBV94"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ETECSA",
+      "position": "Desarrollador FullStack",
+      "url": "https://www.etecsa.cu/",
+      "startDate": "2023-09",
+      "endDate": null,
+      "summary": "Actualmente lidero y desarrollo sistemas internos incluyendo plataformas de gestión de capacitación, gestión del conocimiento y sistemas de asistencia, donde asumo el ciclo completo de desarrollo: desde la arquitectura hasta el despliegue y mantenimiento.",
+      "highlights": ["PHP", "MySQL", "TypeScript", "HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "name": "CITI",
+      "position": "Desarrollador FullStack",
+      "url": "https://cujae.edu.cu/investigaciones/centros-de-la-cujae/71-centro-citi/118-complejo-de-investigaciones-tecnologicas-integradas-citi",
+      "startDate": "2018-09",
+      "endDate": "2023-08",
+      "summary": "Actualicé el sistema de análisis de señales de radio incorporando nuevas técnicas de demodulación y di mantenimiento al mismo. Diseñé y construí un sistema completo de front-end y back-end para gestionar inventarios, mejorando su eficiencia.",
+      "highlights": [
+        "C++",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "ReactJS",
+        "NodeJS",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Ciencias Informáticas (UCI)",
+      "url": "https://www.uci.cu/",
+      "area": "Ingeniero en Ciencias Informáticas",
+      "studyType": "Bachelor",
+      "startDate": "2013-09-01",
+      "endDate": "2018-06-21",
+      "score": "4.0",
+      "courses": [""]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Inglés B2 UPPER INTERMEDIATE",
+      "date": "2025",
+      "issuer": "EF SET",
+      "url": "https://cert.efset.org/es/2HGDtW",
+      "download": ""
+    },
+    {
+      "name": "Pruebas de Penetración en Aplicaciones Web",
+      "date": "2020",
+      "issuer": "Universidad de las Ciencias Informáticas (UCI)",
+      "url": "https://certificate.com",
+      "download": "Pruebas-de-Penetración-en-Aplicaciones-Web.pdf"
+    },
+    {
+      "name": "Administración Avanzada de GNU Linux",
+      "date": "2019",
+      "issuer": "Universidad de las Ciencias Informáticas (UCI)",
+      "url": "https://certificate.com",
+      "download": "Administración-Avanzada-de-GNU-Linux.pdf"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Competent",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "API REST"]
+    },
+    {
+      "name": "PHP",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "API REST"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "API REST"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "API REST"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "NoSQL"]
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Competent",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript", "SSG"]
+    },
+    {
+      "name": "React",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Expo",
+      "level": "Competent",
+      "keywords": ["Desarrollo Mobile", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Competent",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Express.js",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Django",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "Python", "Servidor"]
+    },
+    {
+      "name": "FastAPI",
+      "level": "Competent",
+      "keywords": ["Desarrollo Web", "Backend", "Python", "Servidor"]
+    },
+    {
+      "name": "Supabase",
+      "level": "Competent",
+      "keywords": ["Backend serverless", "Database", "API"]
+    },
+    {
+      "name": "Turso",
+      "level": "Competent",
+      "keywords": ["Backend serverless", "Database", "API"]
+    },
+    {
+      "name": "Convex",
+      "level": "Competent",
+      "keywords": ["Backend", "Database", "API"]
+    },
+    {
+      "name": "Prisma",
+      "level": "Competent",
+      "keywords": ["Backend serverless", "Database", "API"]
+    },
+    {
+      "name": "Clerk",
+      "level": "Competent",
+      "keywords": ["Servicios", "Autenticación"]
+    },
+    {
+      "name": "Git",
+      "level": "Competent",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "Docker",
+      "level": "Competent",
+      "keywords": ["Deploy", "Colaboración", "Código Fuente"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Amateur"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Cats", "Dogs"]
+    },
+    {
+      "name": "Cinema",
+      "keywords": ["Movies", "Anime", "TV Series"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "JSBenchmark",
+      "isActive": true,
+      "description": "Herramienta web para comparar rendimiento de JavaScript.",
+      "highlights": ["Astro", "Tailwind CSS", "TypeScript"],
+      "url": "https://js-benchmark.vercel.app/"
+    },
+    {
+      "name": "Comuno",
+      "isActive": true,
+      "description": "Una plataforma para conectar con tus amigos.",
+      "highlights": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "GetStream",
+        "Clerk"
+      ],
+      "url": "https://comuno-five.vercel.app/"
+    },
+    {
+      "name": "Contexto",
+      "isActive": true,
+      "description": "Editor de documentos online y colaborativo impulsado con IA.",
+      "highlights": [
+        "Next.js",
+        "Convex",
+        "TypeScript",
+        "Clerk",
+        "Tailwind CSS"
+      ],
+      "url": "https://contexto-zeta.vercel.app/"
+    }
+  ]
+}

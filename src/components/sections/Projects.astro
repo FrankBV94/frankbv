@@ -2,7 +2,13 @@
 import GitHub from "@/icons/GitHub.astro";
 import Section from "../Section.astro";
 
-import { projects } from "@cv";
+const lang = Astro.currentLocale;
+const translation =
+  lang === "en"
+    ? (await import("@cvEn")).default
+    : (await import("@cvEs")).default;
+
+const { projects } = translation;
 ---
 
 <Section title="Proyectos">
@@ -44,7 +50,7 @@ import { projects } from "@cv";
               </article>
             </li>
           );
-        }
+        },
       )
     }
   </ul>
