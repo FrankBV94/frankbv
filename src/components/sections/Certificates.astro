@@ -10,59 +10,60 @@ const translation =
 const { certificates } = translation;
 ---
 
-<Section title={lang === "en" ? "Certificates" : "Certificados"} />
-<ul>
-  {
-    certificates.map(({ name, date, issuer, url, download }) => {
-      return (
-        <li>
-          <article>
-            <header>
-              <div>
-                <h3>
-                  {download.length > 0 ? (
-                    <a
-                      href={`/frankbv/${download}`}
-                      title={
-                        lang === "en"
-                          ? `See certificate of ${name}`
-                          : `Ver certificado de  ${name}`
-                      }
-                      download={download}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {name}
-                    </a>
-                  ) : (
-                    <a
-                      href={`${url}`}
-                      title={
-                        lang === "en"
-                          ? `See certificate of ${name}`
-                          : `Ver certificado de  ${name}`
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {name}
-                    </a>
-                  )}
-                </h3>
-              </div>
+<Section title={lang === "en" ? "Certificates" : "Certificados"}>
+  <ul>
+    {
+      certificates.map(({ name, date, issuer, url, download }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>
+                    {download.length > 0 ? (
+                      <a
+                        href={`/frankbv/${download}`}
+                        title={
+                          lang === "en"
+                            ? `See certificate of ${name}`
+                            : `Ver certificado de  ${name}`
+                        }
+                        download={download}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {name}
+                      </a>
+                    ) : (
+                      <a
+                        href={`${url}`}
+                        title={
+                          lang === "en"
+                            ? `See certificate of ${name}`
+                            : `Ver certificado de  ${name}`
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {name}
+                      </a>
+                    )}
+                  </h3>
+                </div>
 
-              <time>{date}</time>
-            </header>
+                <time>{date}</time>
+              </header>
 
-            <footer>
-              <p>{issuer}</p>
-            </footer>
-          </article>
-        </li>
-      );
-    })
-  }
-</ul>
+              <footer>
+                <p>{issuer}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
 
 <style>
   ul {
