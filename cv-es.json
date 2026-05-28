@@ -287,21 +287,24 @@
       "isActive": true,
       "description": "Herramienta web para comparar rendimiento de JavaScript.",
       "highlights": ["Astro", "Tailwind CSS", "TypeScript"],
-      "url": "https://js-benchmark.vercel.app/"
+      "url": "https://js-benchmark.vercel.app/",
+      "github": "https://github.com/FrankBV94/js-benchmark"
     },
     {
       "name": "Comuno",
       "isActive": true,
       "description": "Una plataforma para conectar con tus amigos.",
       "highlights": ["Next.js", "TypeScript", "GetStream", "Clerk"],
-      "url": "https://comuno-five.vercel.app/"
+      "url": "https://comuno-five.vercel.app/",
+      "github": "https://github.com/FrankBV94/comuno"
     },
     {
       "name": "Contexto",
       "isActive": true,
       "description": "Editor de documentos online y colaborativo impulsado con IA.",
       "highlights": ["Next.js", "Convex", "TypeScript", "Clerk"],
-      "url": "https://contexto-zeta.vercel.app/"
+      "url": "https://contexto-zeta.vercel.app/",
+      "github": "https://github.com/FrankBV94/contexto"
     }
   ]
 }

@@ -10,19 +10,18 @@ const translation =
 const { skills } = translation;
 ---
 
-<Section title="Habilidades">
-  <ul>
-    {
-      skills.map(({ name }) => {
-        return (
-          <li>
-            <span class="badge">{name}</span>
-          </li>
-        );
-      })
-    }
-  </ul>
-</Section>
+<Section title={lang === "en" ? "Skills" : "Habilidades"} />
+<ul>
+  {
+    skills.map(({ name }) => {
+      return (
+        <li>
+          <span class="badge">{name}</span>
+        </li>
+      );
+    })
+  }
+</ul>
 
 <style>
   ul {

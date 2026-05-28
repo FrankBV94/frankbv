@@ -10,60 +10,60 @@ const translation =
 const { work } = translation;
 ---
 
-<Section title="Experiencia Profesional">
-  <ul>
-    {
-      work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear();
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Presente";
+<Section title={lang === "en" ? "Experience" : "Experiencia"} />
+<ul>
+  {
+    work.map(
+      ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        const startYear = new Date(startDate).getFullYear();
+        const present = lang === "en" ? "Present" : "Presente";
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : present;
 
-          return (
-            <li>
-              <article>
-                <header>
-                  <div>
-                    <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
-                        {name}
-                      </a>
-                      <div>
-                        {highlights.map((highlight) => (
-                          <span class="badge">{highlight}</span>
-                        ))}
-                      </div>
-                    </h3>
-                    <h4>{position}</h4>
-                  </div>
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>
+                    <a href={url} title={`Ver ${name}`} target="_blank">
+                      {name}
+                    </a>
+                    <div>
+                      {highlights.map((highlight) => (
+                        <span class="badge">{highlight}</span>
+                      ))}
+                    </div>
+                  </h3>
+                  <h4>{position}</h4>
+                </div>
 
-                  <div>
-                    <time datetime={startDate} data-title={startDate}>
-                      {startYear}
-                    </time>
-                    {" - "}
-                    <time datetime={endDate} data-title={endDate}>
-                      {endYear}
-                    </time>
-                  </div>
-                </header>
+                <div>
+                  <time datetime={startDate} data-title={startDate}>
+                    {startYear}
+                  </time>
+                  {" - "}
+                  <time datetime={endDate} data-title={endDate}>
+                    {endYear}
+                  </time>
+                </div>
+              </header>
 
-                <footer>
-                  <p>{summary}</p>
-                  <div>
-                    {highlights.map((highlight) => (
-                      <span class="badge">{highlight}</span>
-                    ))}
-                  </div>
-                </footer>
-              </article>
-            </li>
-          );
-        },
-      )
-    }
-  </ul>
-</Section>
+              <footer>
+                <p>{summary}</p>
+                <div>
+                  {highlights.map((highlight) => (
+                    <span class="badge">{highlight}</span>
+                  ))}
+                </div>
+              </footer>
+            </article>
+          </li>
+        );
+      },
+    )
+  }
+</ul>
 
 <style>
   ul {

@@ -39,7 +39,11 @@ const githubInfo = profiles.find(({ network }) => network === "GitHub");
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={
+                lang === "en"
+                  ? `Send email to ${email}`
+                  : `Enviar correo a ${email}`
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -52,7 +56,11 @@ const githubInfo = profiles.find(({ network }) => network === "GitHub");
           linkedInfo && (
             <a
               href={linkedInfo.url}
-              title={`Visitar el perfil de ${name} en ${linkedInfo.network}`}
+              title={
+                lang === "en"
+                  ? `Visit ${linkedInfo.url}`
+                  : `Visitar ${linkedInfo.url}`
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,7 +73,11 @@ const githubInfo = profiles.find(({ network }) => network === "GitHub");
           githubInfo && (
             <a
               href={githubInfo.url}
-              title={`Enviar un correo electrónico a ${name} al correo ${githubInfo.network}`}
+              title={
+                lang === "en"
+                  ? `Visit ${githubInfo.network}`
+                  : `Visitar ${githubInfo.network}`
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -79,7 +91,11 @@ const githubInfo = profiles.find(({ network }) => network === "GitHub");
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={
+                lang === "en"
+                  ? `Send email to ${email}`
+                  : `Enviar correo a ${email}`
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -94,7 +110,9 @@ const githubInfo = profiles.find(({ network }) => network === "GitHub");
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={
+                  lang === "en" ? `Visit ${network}` : `Visitar ${network}`
+                }
                 target="_blank"
                 rel="noopener noreferrer"
               >

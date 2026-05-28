@@ -9,14 +9,13 @@ const translation =
 const { summary } = translation.basics;
 ---
 
-<Section title="Sobre mi">
-  <p>
-    {summary.first}
-  </p>
-  <p>
-    {summary.second}
-  </p>
-</Section>
+<Section title={lang === "en" ? "About" : "Sobre mí"} />
+<p>
+  {summary.first}
+</p>
+<p>
+  {summary.second}
+</p>
 
 <style>
   p:first-of-type {

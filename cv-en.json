@@ -287,7 +287,8 @@
       "isActive": true,
       "description": "Web tool to compare JavaScript code performance.",
       "highlights": ["Astro", "Tailwind CSS", "TypeScript"],
-      "url": "https://js-benchmark.vercel.app/"
+      "url": "https://js-benchmark.vercel.app/",
+      "github": "https://github.com/FrankBV94/js-benchmark"
     },
     {
       "name": "Comuno",
@@ -300,7 +301,8 @@
         "GetStream",
         "Clerk"
       ],
-      "url": "https://comuno-five.vercel.app/"
+      "url": "https://comuno-five.vercel.app/",
+      "github": "https://github.com/FrankBV94/comuno"
     },
     {
       "name": "Contexto",
@@ -313,7 +315,8 @@
         "Clerk",
         "Tailwind CSS"
       ],
-      "url": "https://contexto-zeta.vercel.app/"
+      "url": "https://contexto-zeta.vercel.app/",
+      "github": "https://github.com/FrankBV94/contexto"
     }
   ]
 }
