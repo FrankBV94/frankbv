@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Frank Botelle Valdés",
-    "description": "Ingeniero de Software y Desarrollador FullStack.",
+    "description": "Ingeniero de Software y Desarrollador FullStack",
     "image": "/frankbv/me.png",
     "email": "frankbotelle@gmail.com",
     "url": "",
@@ -82,7 +82,7 @@
   ],
   "certificates": [
     {
-      "name": "Inglés B2 UPPER INTERMEDIATE",
+      "name": "Inglés B2 Intermedio",
       "date": "2025",
       "issuer": "EF SET",
       "url": "https://cert.efset.org/es/2HGDtW",
@@ -257,12 +257,12 @@
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Hablante Nativo"
     },
     {
-      "language": "English",
-      "fluency": "Amateur"
+      "language": "Inglés",
+      "fluency": "Intermedio"
     }
   ],
   "interests": [

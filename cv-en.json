@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Frank Botelle Valdés",
-    "description": "Software Engineer and Full Stack Developer.",
+    "description": "Software Engineer and Full Stack Developer",
     "image": "/frankbv/me.png",
     "email": "frankbotelle@gmail.com",
     "url": "",
@@ -82,7 +82,7 @@
   ],
   "certificates": [
     {
-      "name": "English B2 Upper Intermediate",
+      "name": "English B2 Intermediate",
       "date": "2025",
       "issuer": "EF SET",
       "url": "https://cert.efset.org/es/2HGDtW",

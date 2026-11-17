@@ -35,92 +35,80 @@ const githubInfo = profiles.find(({ network }) => network === "GitHub");
         {city}, {region}
       </span>
       <footer class="print">
-        {
-          email && (
-            <a
-              href={`mailto:${email}`}
-              title={
-                lang === "en"
-                  ? `Send email to ${email}`
-                  : `Enviar correo a ${email}`
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {email}
-            </a>
-          )
-        }
+        {email && (
+          <a
+            href={`mailto:${email}`}
+            title={
+              lang === "en"
+                ? `Send email to ${email}`
+                : `Enviar correo a ${email}`
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {email}
+          </a>
+        )}
         {" - "}
-        {
-          linkedInfo && (
-            <a
-              href={linkedInfo.url}
-              title={
-                lang === "en"
-                  ? `Visit ${linkedInfo.url}`
-                  : `Visitar ${linkedInfo.url}`
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {linkedInfo.url}
-            </a>
-          )
-        }
+        {linkedInfo && (
+          <a
+            href={linkedInfo.url}
+            title={
+              lang === "en"
+                ? `Visit ${linkedInfo.url}`
+                : `Visitar ${linkedInfo.url}`
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {linkedInfo.url}
+          </a>
+        )}
         {" - "}
-        {
-          githubInfo && (
-            <a
-              href={githubInfo.url}
-              title={
-                lang === "en"
-                  ? `Visit ${githubInfo.network}`
-                  : `Visitar ${githubInfo.network}`
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {githubInfo.url}
-            </a>
-          )
-        }
+        {githubInfo && (
+          <a
+            href={githubInfo.url}
+            title={
+              lang === "en"
+                ? `Visit ${githubInfo.network}`
+                : `Visitar ${githubInfo.network}`
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {githubInfo.url}
+          </a>
+        )}
       </footer>
       <footer class="no-print">
-        {
-          email && (
+        {email && (
+          <a
+            href={`mailto:${email}`}
+            title={
+              lang === "en"
+                ? `Send email to ${email}`
+                : `Enviar correo a ${email}`
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Mail />
+          </a>
+        )}
+        {profiles.map(({ network, url, username }) => {
+          const Icon = SOCIAL_ICONS[network];
+
+          return (
             <a
-              href={`mailto:${email}`}
-              title={
-                lang === "en"
-                  ? `Send email to ${email}`
-                  : `Enviar correo a ${email}`
-              }
+              href={url}
+              title={lang === "en" ? `Visit ${network}` : `Visitar ${network}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Mail />
+              <Icon />
             </a>
-          )
-        }
-        {
-          profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network];
-
-            return (
-              <a
-                href={url}
-                title={
-                  lang === "en" ? `Visit ${network}` : `Visitar ${network}`
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Icon />
-              </a>
-            );
-          })
-        }
+          );
+        })}
       </footer>
     </div>
     <figure>
